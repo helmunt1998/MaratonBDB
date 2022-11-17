@@ -15,7 +15,7 @@ La estructura de esta documentación se segmenta en el flujo básico de la manip
 la **Entrada**, el **proceso**, y la **salida** del(os) dato(s), que concuerda con el desarrollo **secuencial**
 de cada algoritmo.
 
-### EJERCICIO 1
+### EJERCICIO 1 [Código Java](https://github.com/helmunt1998/MaratonBDB/blob/main/Ejercicio1_JAVA/src/ejercicio1_java/Ejercicio1_JAVA.java)
 
 Contiene todo el código dentro del _método_ principal de la clase.
 
@@ -37,7 +37,7 @@ Contiene todo el código dentro del _método_ principal de la clase.
 > - `ArrayList` con el conteo de la cantidad de pares por cada número.
 > - `int` del total de pares que pueden armarse según la entrada de los datos.
 
-### EJERCICO 2
+### EJERCICO 2 [Código Java](https://github.com/helmunt1998/MaratonBDB/blob/main/Ejercicio2_JAVA/src/MainPackage/MainClass.java)
 
 La clase principal están divida en el _método_ main que recolecta y valida los datos ingresados; y en el _método_ `calculaSumas()`, que 
 realiza la suma de los máximos y los mínimos de cuatro valores dentro del array.
@@ -70,7 +70,7 @@ realiza la suma de los máximos y los mínimos de cuatro valores dentro del arra
 > - Una variable tipo `long int[]` de longitud 2, que contiene en la posición 1 la suma de los 4 mínimos posibles del array inicial; y, 
 > en la posición dos, la suma de los 4 máximos posibles del array inicial.
 
-### EJERCICO 3
+### EJERCICO 3 [Código Java](https://github.com/helmunt1998/MaratonBDB/blob/main/Ejercicio3_JAVA/src/MainPackage/MainClass.java)
 
 La clase principal están divida en el _método_ main que recolecta y valida los datos ingresados; y en el _método_ `findMaximum()`, que 
 realiza la operación concreta de calcular la suma del total de valores máximos del array.
