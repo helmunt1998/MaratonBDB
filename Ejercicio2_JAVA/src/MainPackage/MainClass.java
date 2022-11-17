@@ -21,6 +21,7 @@ public class MainClass {
             arr[0] += lista.get(i); //Suma de los máximos
             arr[1] += lista.get(lista.size()-i-1);
         }
+        System.out.println(lista);
         System.out.println(arr[0]+" "+arr[1]);
     }
     
@@ -39,7 +40,6 @@ public class MainClass {
             arrList.add(in);
 
              if (arrList.size()==5) {
-                System.out.println("Bien"); 
                  for (Integer list : arrList) {
                      if (list > 0) {
                          numero++;
@@ -53,8 +53,6 @@ public class MainClass {
                      arrList.removeAll(arrList); 
                  }
                  numero=0;
-             } else {
-                 System.out.println("hola");
              } 
          } catch (InputMismatchException ex){
            System.out.println("Solo es válido entrada numérica.");
